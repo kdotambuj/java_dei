@@ -17,8 +17,8 @@ public class Game{
         int low = 40;
         int high = 80;
 
-//        int totalPens= (int)low + (int)(Math.random()* (high-low+1));
-        int totalPens = 12;
+        int totalPens= (int)low + (int)(Math.random()* (high-low+1));
+
 
         System.out.println("Total number of pens in this game : "+totalPens);
 

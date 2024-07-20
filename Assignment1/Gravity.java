@@ -10,9 +10,9 @@ public class Gravity {
         System.out.println("Enter the time (in seconds) : ");
         int time = scanner.nextInt();
 
-        final double g = 9.81f;
+        float g = 9.81f;
 
-        double distanceTravelled = 0.5 * g * time * time;
+        float distanceTravelled = 0.5f * g * (float)(time*time);
 
         System.out.printf("Distance Travelled: %f ",distanceTravelled);
     }
